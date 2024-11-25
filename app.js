@@ -50,3 +50,14 @@ console.log(o1);
  
 
 
+// create function to return Squre value with parameter 
+
+
+function fun_ret_sqr_val(num1){//parameters 
+    var output=num1*num1;
+   return  output;
+}
+
+var o2 =fun_ret_sqr_val(300);
+console.log(o2);
+
