@@ -61,3 +61,14 @@ function fun_ret_sqr_val(num1){//parameters
 var o2 =fun_ret_sqr_val(300);
 console.log(o2);
 
+
+// create function to return Area value with parameter 
+
+
+function fun_ret_area(num1,num2){//parameters 
+    var output=num1*num2;
+   return  output;
+}
+
+var o3 =fun_ret_area(100,500);
+console.log(o3);
